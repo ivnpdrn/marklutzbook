@@ -27,6 +27,7 @@ class Manager:
 if __name__ == '__main__':
     bob = Person('Bob Smith')          # Test the class
     sue = Person('Sue Jones', job='dev', pay=1000000)  # Runs _init_ automatically
+    bob = Person('ivan padron')        # para ver el cambio en Git
     print (bob)
     print (sue)
     print(bob.lastName(), sue.lastName())
