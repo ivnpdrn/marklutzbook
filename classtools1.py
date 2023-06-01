@@ -11,7 +11,7 @@ class AttrDisplay:
 
     def gatherAttrs(self):
         attrs = []
-        for key in sorted(self._dict_):
+        for key in sorted(self.__dict__):
             attrs.append('%s=%s' % (key,getattr(self, key)))
         return ', '.join(attrs)
     

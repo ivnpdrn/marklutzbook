@@ -1,6 +1,6 @@
 # File person.py (start)
 
-# uvicorn main:person --reload
+# cd
 
 class Person:
     def __init__(self, name, job=None, pay=0):  # Constructor takes three arguments
